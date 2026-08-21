@@ -1,0 +1,23 @@
+{
+  "name": "05_middlewares",
+  "version": "1.0.0",
+  "description": "Express middleware practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "helmet": "^8.3.0"
+  }
+}
